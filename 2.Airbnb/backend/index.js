@@ -14,7 +14,7 @@ let app = express()
 app.use(express.json())
 app.use(cookieParser())
 app.use(cors({
-    origin:"https://airbnb-6ia3.onrender.com",
+    origin:"https://razi-air.netlify.app/",
     credentials:true
 }))
 
